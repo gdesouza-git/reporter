@@ -19,7 +19,7 @@ package report
 const defaultTemplate = `
 %use square brackets as golang text templating delimiters
 \documentclass{article}
-\usepackage{graphicx}
+\usepackage{lmodern}
 \usepackage[margin=1in]{geometry}
 
 \graphicspath{ {images/} }
